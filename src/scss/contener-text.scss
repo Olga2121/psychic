@@ -1,0 +1,269 @@
+    $bl:#41f6d7;
+    $grey:#7E7E82;
+    $bll: #b8ffec;
+    main {
+        display: block;
+        font-family: "TT Lakes";
+    }
+
+    .header__services {
+        position: relative;
+        height: 40px;
+        margin: 24px 0;
+        padding: 0 16px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -.6px;
+        font-size: 28px;
+        font-family: "Bold";
+    }
+
+    .header__services {
+        &::before {
+            content: "";
+            position: absolute;
+            left: -2px;
+            top: 0;
+            height: 40px;
+            width: 4px;
+            background-color: $bl;
+            border-radius: 2px;
+        }
+    }
+
+    .header__nav {
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+    }
+
+    .nav {
+        white-space: nowrap;
+    }
+
+    .nav__menu {
+        display: flex;
+        flex-basis: 100%;
+        padding-left: 32px;
+    }
+
+    .nav__li {
+        list-style-type: none;
+        padding: 8px 16px;
+        color: background $grey;
+        width: 233px !important;
+    }
+
+    .nav__li:nth-child(1):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+    }
+
+    .nav__li:nth-child(1):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+    }
+
+    .nav__li:nth-child(1):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+    }
+
+    .nav__li:nth-child(2):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+    }
+
+    .nav__li:nth-child(2):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+    }
+
+    .nav__li:nth-child(2):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+    }
+
+    .nav__li:nth-child(3):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+    }
+
+    .nav__li:nth-child(3):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+    }
+
+    .nav__li:nth-child(3):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+    }
+
+    .nav__li:nth-child(4):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(4):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(4):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(5):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(5):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(5):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(6):hover {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(6):focus {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__li:nth-child(6):checked {
+        border: 2px solid #b8ffec;
+        border-radius: 6px;
+        margin-left: -16px;
+        background: #FFFFFF;
+        margin: 0 12px;
+        text-align: center;
+        padding: 8px 12px 8px 6px;
+    }
+
+    .nav__menu__li__link {
+        text-decoration: none;
+        color: $grey;
+    }
+
+    .nav__menu__li__link:hover {
+        color: $bl;
+        padding: 5px;
+        border-radius: 6px;
+        opacity: 0.5;
+    }
+
+    .tex#tex {
+        display: none;
+    }
+
+    .text-block#tex {
+        display: block;
+    }
+
+    .li-one {
+        margin-right: -19px;
+    }
+
+    .li-two {
+        margin-right: -83px;
+    }
+
+    @media (min-width: 768px) {
+        .li-three {
+            margin-right: -55px;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .nav__menu {
+            display: flex;
+            flex-basis: 100%;
+            padding-left: 32px;
+            flex-wrap: wrap;
+        }
+        .nav__li {
+            list-style-type: none;
+            padding: 8px 16px;
+        }
+        .header__nav {
+            width: 1120px;
+        }
+    }

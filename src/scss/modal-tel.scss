@@ -1,0 +1,209 @@
+$grey:#7E7E82;
+$wl: #D9FFF5;
+$bac: #FFFFFF;
+$pinks: #ff3e79;
+$bla: #1B1C21;
+$w-b: #41F6D7;
+$ver: #EAEAEA;
+$hen: #B5B6BC;
+.modal-tel {
+    background: $bac;
+    width: 320px;
+    height: 105%;
+    position: fixed;
+    top: 0;
+    margin-top: -34px;
+    z-index: 1000000000000;
+}
+
+.modal-tel__cross {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.modal-tel__cross-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    fill: $bac;
+    cursor: pointer;
+    background: $pinks;
+    margin-top: 24px;
+}
+
+.modal-tel__cross-button:hover {
+    -webkit-filter: invert(0.2);
+    filter: invert(0.2);
+}
+
+.modal-tel__heading-h1 {
+    position: relative;
+    margin-left: 12px;
+    font-family: "TT Lakes";
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $bla;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.modal-tel__heading-h1::before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: -6px;
+    height: 40px;
+    width: 4px;
+    background-color: $w-b;
+}
+
+.modal-tel__form-block {
+    margin-top: 29px;
+}
+
+.modal-tel__form-tel {
+    background: $bac;
+    border: 1px solid $ver;
+    border-radius: 8px;
+    width: 288px;
+    height: 48px;
+    margin-left: 14px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $hen;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.modal-tel__footer {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $grey;
+    width: 288;
+    width: 288px;
+    height: 64px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.modal-tel__link {
+    color: $pinks;
+    text-decoration: none;
+}
+
+.modal-tel__button-send {
+    border-radius: 16px;
+    padding: 10px 19px 10px 12px;
+    border: none;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 168px;
+    background: $pinks;
+    color: $bac;
+}
+
+.modal-tel__button-send:hover {
+    -webkit-filter: invert(0.2);
+    filter: invert(0.2);
+}
+
+.modal-tel {
+    display: none;
+}
+
+.modal-tel.active {
+    display: block;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.hover.gactive {
+    opacity: .9;
+    pointer-events: all;
+}
+
+.hover {
+    cursor: pointer;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #FFF;
+    transition: all .75s ease-in-out;
+    pointer-events: none;
+    z-index: 3;
+}
+
+@media (min-width: 768px) {
+    .modal-tel {
+        background: $bac;
+        width: 420px;
+        height: 940px;
+        top: 86px;
+        position: absolute;
+        margin-left: 476px;
+    }
+    .modal-tel__cross {
+        margin-left: -70px;
+        margin-top: -10px;
+    }
+    .modal-tel__cross-button {
+        margin-top: 31px;
+    }
+    .modal-tel__heading {
+        margin-top: -74px;
+    }
+    .modal-tel__form-block {
+        margin-top: 29px;
+        margin-left: -48px;
+    }
+    .modal-tel__footer {
+        font-family: "TT Lakes";
+        font-size: 14px;
+        line-height: 16px;
+        color: #7E7E82;
+        width: 288;
+        width: 288px;
+        height: 64px;
+        margin-left: -42px;
+        position: relative;
+    }
+    .modal-tel__form-tel {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-tel__footer-text {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-tel__button-send {
+        margin-left: 255px;
+    }
+    .modal-tel {
+        display: none;
+    }
+    .modal-tel.active {
+        display: block;
+        position: fixed;
+        right: 0;
+        margin-top: -89px;
+        z-index: 3;
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    }
+}
+
+@media (min-width: 1440px) {
+    .modal-tel.active {
+        background: $bac;
+        width: 473px;
+        height: 940px;
+        top: 1px;
+        margin-top: -8px;
+    }
+}

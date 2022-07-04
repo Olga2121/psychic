@@ -1,0 +1,66 @@
+        $grey:#7E7E82;
+        $wl: #D9FFF5;
+        $bac: #FFFFFF;
+        $pinks: #ff3e79;
+        $bla: #1B1C21;
+        $w-b: #41F6D7;
+        $ver: #EAEAEA;
+        $hen: #B5B6BC;
+        $irt: #41f6d7;
+        $two: #F8F8F8;
+        .warning {
+            position: relative;
+        }
+
+        .warning__link {
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            color: $bla;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .warning__p {
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: $bla;
+        }
+
+        .warning__button {
+            margin-left: 14px;
+            margin-top: 5px;
+            position: absolute;
+            border: none;
+            background: #F8F8F8;
+        }
+
+        @media (min-width: 768px) {
+            .warning__p {
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: $bla;
+                width: 421px;
+                margin: 32px 25px 12px 18px;
+            }
+            .warning__link {
+                margin-left: 18px;
+            }
+        }
+
+        @media (min-width: 1440px) {
+            .warning {
+                position: relative;
+                margin-left: 266px;
+            }
+            .warning__p {
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: $bla;
+                width: 421px;
+                margin: 32px 25px 12px 25px;
+            }
+        }

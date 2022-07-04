@@ -1,0 +1,248 @@
+$grey:#7E7E82;
+$wl: #D9FFF5;
+$bac: #FFFFFF;
+$pinks: #ff3e79;
+$bla: #1B1C21;
+$w-b: #41F6D7;
+$ver: #EAEAEA;
+$hen: #B5B6BC;
+$irt: #41f6d7;
+.modal-window {
+    background: $bac;
+    width: 320px;
+    height: 105%;
+    position: fixed;
+    top: 0;
+    margin-top: -34px;
+    z-index: 1000000000;
+}
+
+.modal-window__cross {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.modal-window__cross-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    fill: $bac;
+    cursor: pointer;
+    background: $pinks;
+    margin-top: 24px;
+}
+
+.modal-window__cross-button:hover {
+    -webkit-filter: invert(0.2);
+    filter: invert(0.2);
+}
+
+.modal-window__heading-h1 {
+    position: relative;
+    margin-left: 12px;
+    font-family: "TT Lakes";
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $bla;
+    margin-top: 40px;
+    margin-left: 16px;
+    &::before {
+        content: "";
+        position: absolute;
+        left: -16px;
+        top: -6px;
+        height: 40px;
+        width: 4px;
+        background-color: $irt;
+    }
+}
+
+.modal-window__form-block {
+    margin-top: 29px;
+}
+
+.modal-window__form-name {
+    background: $bac;
+    border: 1px solid $ver;
+    border-radius: 8px;
+    width: 288px;
+    height: 48px;
+    margin-left: 14px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $hen;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.modal-window__form-tel {
+    background: $bac;
+    border: 1px solid $ver;
+    border-radius: 8px;
+    width: 288px;
+    height: 48px;
+    margin-left: 14px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $hen;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.modal-window__form-el {
+    background: $bac;
+    border: 1px solid $ver;
+    border-radius: 8px;
+    width: 288px;
+    height: 48px;
+    margin-left: 14px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $hen;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.modal-window__form-text {
+    background: $bac;
+    border: 1px solid $ver;
+    border-radius: 8px;
+    width: 288px;
+    height: 118px;
+    margin-left: 14px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $hen;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 67px;
+}
+
+.modal-window__footer {
+    font-family: "TT Lakes";
+    font-size: 14px;
+    line-height: 16px;
+    color: $grey;
+    width: 288;
+    width: 288px;
+    height: 64px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.modal-window__link {
+    color: $pinks;
+    text-decoration: none;
+}
+
+.modal-window__button-send {
+    border-radius: 16px;
+    padding: 10px 18px 10px 12px;
+    border: none;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 160px;
+    background: $pinks;
+    color: $bac;
+}
+
+.modal-window__button-send:hover {
+    -webkit-filter: invert(0.2);
+    filter: invert(0.2);
+}
+
+.modal-window {
+    display: none;
+}
+
+.modal-window.active {
+    display: block;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.modal__cross-button {
+    padding-top: 4px;
+}
+
+.button-send-img {
+    margin-left: 12px;
+}
+
+@media (min-width: 768px) {
+    .modal-window {
+        background: $bac;
+        width: 420px;
+        height: 940px;
+        top: 86px;
+        position: absolute;
+        margin-left: 476px;
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    }
+    .modal-window__cross {
+        margin-left: -70px;
+        margin-top: -10px;
+    }
+    .modal-window__cross-button {
+        margin-top: 31px;
+    }
+    .modal-window__heading {
+        margin-top: -74px;
+    }
+    .modal-window__form-name {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-window__form-tel {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-window__form-el {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-window__form-text {
+        width: 376px;
+        margin-left: 65px;
+    }
+    .modal-window__footer {
+        width: 376px;
+        margin-left: 21px;
+    }
+    .modal-window__button-send {
+        margin-left: 237px;
+    }
+    .modal-window {
+        display: none;
+    }
+    .modal-window.active {
+        display: block;
+        position: fixed;
+        right: 0;
+        margin-top: -89px;
+        z-index: 3;
+    }
+    .modal-window__form-block {
+        margin-top: 29px;
+        margin-left: -48px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .modal-window.active {
+        background: $bac;
+        width: 473px;
+        height: 940px;
+        top: 1px;
+        margin-top: -8px;
+    }
+}

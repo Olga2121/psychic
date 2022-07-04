@@ -1,0 +1,263 @@
+    $wite: #fff;
+    $pink: #ff3e79;
+    $wite-t:#EAEAEA;
+    .contener__header {
+        justify-content: space-between;
+        min-width: 320px;
+    }
+
+    .header_main {
+        display: flex;
+        background-color: $wite;
+        height: 88px;
+    }
+
+    .header__button {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: $pink;
+        fill: $wite;
+        cursor: pointer;
+        margin-right: 16px;
+        margin-top: 24px;
+        margin-left: 16px;
+        font-family: "TT Lakes";
+    }
+
+    .header__button-img {
+        padding-top: 5px;
+    }
+
+    .header__logo {
+        margin-top: 18px;
+        margin-right: 39px;
+        height: 51px;
+        width: 97px;
+    }
+
+    .header__logo::before {
+        content: "";
+        width: 2px;
+        height: 32px;
+        background-color: $wite-t;
+        position: absolute;
+        top: 28px;
+        margin-left: 116px;
+    }
+
+    .header__icon {
+        margin-left: auto;
+    }
+
+    .icon__botton {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: $pink;
+        fill: $wite;
+        cursor: pointer;
+        margin-right: 16px;
+        margin-top: 24px;
+    }
+
+    .icon__botton-two {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: $pink;
+        fill: $wite;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 24px;
+    }
+
+    .header__icon-middle {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        .contener__header {
+            min-width: 768px;
+        }
+        .header__icon-middle {
+            display: flex;
+            margin-left: auto;
+        }
+        .header__icon {
+            margin: 0;
+        }
+        .header__logo {
+            margin-top: 18px;
+            margin-left: 20px;
+        }
+        .header__button {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: $pink;
+            fill: $wite;
+            cursor: pointer;
+            margin-top: 24px;
+            margin-left: 24px;
+        }
+        .icon-middle__button {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: $pink;
+            fill: $wite;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-top: 24px;
+        }
+        .icon-middle_button-img {
+            padding-top: 4px;
+        }
+        .icon-middle__button-two {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: $pink;
+            fill: $wite;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-top: 24px;
+        }
+        .icon-middle__button-two-img {
+            padding-top: 4px;
+        }
+        .icon-middle__button-three {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: $pink;
+            fill: $wite;
+            cursor: pointer;
+            margin-right: 40px;
+            margin-top: 24px;
+            &::after {
+                content: "";
+                width: 2px;
+                height: 32px;
+                background-color: $wite-t;
+                position: absolute;
+                top: 28px;
+                margin-left: 30px;
+            }
+        }
+        .icon-middle__button-three-img {
+            padding-top: 4px;
+        }
+        .header__logo {
+            &::before {
+                content: "";
+                width: 2px;
+                height: 32px;
+                background-color: $wite-t;
+                position: absolute;
+                top: 28px;
+                margin-left: -18px;
+            }
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .header__icon {
+            margin-left: auto;
+            margin-top: -17px;
+        }
+        .header__icon-middle {
+            display: none;
+            margin-left: auto;
+        }
+        .header_main {
+            display: flex;
+            background-color: $wite-t;
+            height: 0px;
+        }
+        .contener__header {
+            min-width: 1120px;
+        }
+        .header__logo,
+        .header__button,
+        .header__icon-middle {
+            display: none;
+        }
+        main {
+            display: block;
+            position: relative;
+        }
+        .icon__botton {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: #ff3e79;
+            fill: #fff;
+            cursor: pointer;
+            margin-right: 160px;
+            margin-top: 24px;
+            z-index: 1;
+            position: relative;
+        }
+        .icon__botton::before {
+            position: absolute;
+            content: "Оставить заявку";
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            font-family: "TT Lakes";
+            height: 40px;
+            margin-left: -160px;
+            font-size: 17px;
+            margin-top: 1px;
+            pointer-events: none;
+        }
+        .icon__botton-two {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: #ff3e79;
+            fill: #fff;
+            cursor: pointer;
+            margin-right: 32px;
+            margin-top: 42px;
+            position: relative;
+            z-index: 1;
+        }
+        .icon__botton-two::before {
+            position: absolute;
+            content: "Cтатус ремонта";
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            width: 125px;
+            height: 40px;
+            right: 48px;
+            font-size: 17px;
+            font-family: "TT Lakes";
+            margin-top: 1px;
+            margin-right: 4px;
+            pointer-events: none;
+        }
+        .icon__botton:hover {
+            -webkit-filter: contrast(70%);
+            filter: contrast(70%);
+        }
+        .icon__botton-two:hover {
+            -webkit-filter: contrast(70%);
+            filter: contrast(70%);
+        }
+    }

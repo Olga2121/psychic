@@ -1,0 +1,398 @@
+.contener__aside {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: 0px;
+  background: #FFFFFF;
+  margin-left: -1px;
+  position: fixed;
+  z-index: 90;
+  font-family: "TT Lakes", sans-serif; }
+
+.nav__menu__li-aside:nth-child(1) a:hover::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 98.99%;
+  right: 98.99%;
+  top: -1.67%;
+  background: #41F6D7;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 2px; }
+
+.contener__aside.active {
+  display: block;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+
+.aside__header {
+  display: flex; }
+
+.aside__header__button-blok {
+  margin: 24px 16px 45px 16px; }
+
+.aside__header__button-blok-right {
+  margin-top: 24px;
+  margin-left: 78px; }
+
+.aside__header__button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  fill: #FFFFFF;
+  cursor: pointer; }
+
+.button-cross {
+  background: #ff3e79; }
+
+.button-cross-img {
+  padding-top: 4px; }
+
+.button-loupe {
+  background: #ff3e79; }
+
+.button-loupe:hover {
+  -webkit-filter: grayscale(0.2);
+  filter: grayscale(0.2); }
+
+.button-cross:hover {
+  -webkit-filter: invert(0.2);
+  filter: invert(0.2); }
+
+.aside__header__logo {
+  margin-top: 18px; }
+
+.nav__menu-aside {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.nav__menu__li-aside {
+  margin-bottom: 24px;
+  margin-left: 24px;
+  list-style-type: none; }
+
+.nav__menu__link-aside {
+  text-decoration: none;
+  font-family: "TT Lakes", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  font-weight: 700; }
+
+.nav__menu__li__link:hover {
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%); }
+
+.aside__footer__icon {
+  display: flex; }
+
+.aside__footer__icon-block {
+  margin-left: 24px;
+  margin-bottom: 16px; }
+
+.aside__footer__button-phone {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  fill: #FFFFFF;
+  cursor: pointer;
+  background: #ff3e79; }
+
+.aside__footer__button-phone-img {
+  padding-top: 4px; }
+
+.aside__footer__button-phone:hover {
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%); }
+
+.aside__footer__button-message {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  fill: #FFFFFF;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 16px;
+  background: #ff3e79; }
+
+.aside__footer__button-message:hover {
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%); }
+
+.aside__footer__button-message-img {
+  padding-top: 7px; }
+
+.aside__footer__button-user {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  fill: #FFFFFF;
+  cursor: pointer;
+  fill: #FFFFFF;
+  background-color: #ff3e79; }
+
+.aside__footer__button-user:hover {
+  -webkit-filter: contrast(70%);
+  filter: contrast(70%); }
+
+.aside__footer {
+  margin-top: 233px; }
+
+.aside__footer__contact-mail {
+  height: 24px;
+  left: 3.12%;
+  right: 83.07%;
+  font-family: "TT Lakes", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  margin-left: 24px;
+  font-weight: 700;
+  text-decoration: none; }
+
+.aside__footer-tel {
+  margin-top: 12px;
+  margin-left: 16px; }
+
+.aside__footer__contact-tel {
+  height: 32px;
+  left: 3.12%;
+  right: 71.35%;
+  font-family: "Bold";
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: #1B1C21;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 7px; }
+
+.aside__footer_contact-language {
+  display: flex;
+  margin-top: 9px; }
+
+.aside__footer_contact-language__ru {
+  margin-left: 13px;
+  font-weight: 700;
+  color: #7E7E82;
+  text-decoration: none;
+  margin-left: 24px; }
+
+.aside__footer_contact-language__en {
+  margin-left: 7px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1B1C21; }
+
+.aside__footer_contact-language__cn {
+  margin-left: 7px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1B1C21; }
+
+@media (min-width: 360px) {
+  .contener__aside {
+    width: 100%;
+    position: fixed;
+    z-index: 90; }
+
+  .aside__header__button-blok-right {
+    margin-left: 131px; } }
+@media (min-width: 600px) {
+  .contener__aside {
+    width: 360px;
+    position: fixed;
+    z-index: 90; } }
+@media (min-width: 1440px) {
+  .contener__aside {
+    top: 0;
+    position: fixed;
+    width: 265px;
+    background: #FFFFFF;
+    display: block;
+    height: 100%; }
+
+  .aside__header {
+    display: flex; }
+
+  .aside__header__button-blok {
+    margin: 23px 16px 45px 24px; }
+
+  .aside__header__button-blok-right {
+    margin-top: 24px;
+    margin-left: 84px; }
+
+  .aside__header__button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    fill: #FFFFFF;
+    cursor: pointer; }
+
+  .button-cross {
+    background: #ff3e79; }
+
+  .button-loupe {
+    background: #ff3e79; }
+
+  .button-loupe-img {
+    padding-top: 4px; }
+
+  .button-loupe:hover {
+    filter: grayscale(0.2); }
+
+  .button-cross:hover {
+    filter: invert(0.2); }
+
+  .aside__header__logo {
+    margin-top: 19px;
+    margin-bottom: 25px;
+    margin-left: 22px; }
+
+  .nav__menu-aside {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+
+  .nav__menu__li-aside {
+    margin-bottom: 23px;
+    margin-left: 24px;
+    list-style-type: none; }
+
+  .nav__menu__link-aside {
+    text-decoration: none;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    font-weight: 700; }
+
+  .nav__menu__li-aside:nth-child(2) a {
+    color: #7E7E82; }
+
+  .nav__menu__li-aside:nth-child(2) a::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    right: 98.99%;
+    top: 12.33%;
+    bottom: 80.2%;
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 2px; }
+
+  .aside__footer__icon {
+    display: flex; }
+
+  .aside__footer__icon-block {
+    margin-left: 16px;
+    margin-bottom: 16px; }
+
+  .aside__footer__button-phone {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    fill: #FFFFFF;
+    cursor: pointer;
+    background: #ff3e79; }
+
+  .aside__footer__button-phone:hover {
+    filter: contrast(70%); }
+
+  .aside__footer__button-message {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    fill: #FFFFFF;
+    cursor: pointer;
+    margin-left: 16px;
+    margin-right: 16px;
+    background: #ff3e79; }
+
+  .aside__footer__button-message:hover {
+    filter: contrast(70%); }
+
+  .aside__footer__button-user {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff3e79;
+    cursor: pointer; }
+
+  .aside__footer__button-user:hover {
+    filter: contrast(70%); }
+
+  .aside__footer {
+    margin-top: 52px; }
+
+  .aside__footer__contact-mail {
+    height: 24px;
+    left: 3.12%;
+    right: 83.07%;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    margin-left: 17px;
+    font-weight: 700;
+    text-decoration: none; }
+
+  .aside__footer-tel {
+    margin-top: 12px;
+    margin-left: 8px; }
+
+  .aside__footer__contact-tel {
+    height: 32px;
+    left: 3.12%;
+    right: 71.35%;
+    font-family: "Bold";
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    font-weight: 700;
+    text-decoration: none; }
+
+  .aside__footer_contact-language {
+    display: flex;
+    margin-top: 40px; }
+
+  .aside__footer_contact-language__ru {
+    margin-left: 16px;
+    font-weight: 700;
+    color: #7E7E82;
+    text-decoration: none; }
+
+  .aside__footer_contact-language__en {
+    margin-left: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1B1C21; }
+
+  .aside__footer_contact-language__cn {
+    margin-left: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1B1C21; }
+
+  .aside__footer__icon {
+    display: flex; } }
+@media (max-height: 800px) {
+  .aside__footer {
+    margin-top: 80px; } }
+
+/*# sourceMappingURL=aside.css.map */

@@ -1,0 +1,244 @@
+    $grey:#7E7E82;
+    $wl: #D9FFF5;
+    $bac: #FFFFFF;
+    $pinks: #ff3e79;
+    $bla: #1B1C21;
+    $w-b: #41F6D7;
+    $ver: #EAEAEA;
+    $hen: #B5B6BC;
+    $irt: #41f6d7;
+    $two: #F8F8F8;
+    .slider-main {
+        height: 207px;
+    }
+
+    .slider-main__heading-block {
+        margin-bottom: 24px;
+        background: linear-gradient(90deg, $two 1.39%, $bac 100%);
+    }
+
+    .slider-main__heading {
+        font-family: "TT Lakes";
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        color: $grey;
+        padding: 16px;
+        font-weight: lighter;
+    }
+
+    .swiper-container {
+        position: relative;
+        height: 120px;
+        margin-left: -55px;
+    }
+
+    .slider-main__brand {
+        display: flex;
+    }
+
+    .swiper-slide.slider-main__brand-section {
+        height: 72px;
+        width: 224px;
+        margin-left: 24px;
+        background-color: $bac;
+        position: relative;
+        display: flex;
+        flex-shrink: 1;
+        border-radius: 6px;
+        margin-top: -15px;
+    }
+
+    .slider-main__img {
+        margin: 20px 116px 20px 16px;
+    }
+
+    .slider-main__button {
+        margin-left: -85px;
+        border: none;
+        margin-top: 16px;
+        background: white;
+    }
+
+    .slider-main__img-apple {
+        margin: 12px 182px 20px 16px;
+    }
+
+    .slider-main__img-samsung {
+        margin: 20px 110px 20px 16px;
+    }
+
+    .slider-main__img-bosch {
+        margin: 20px 96px 20px 16px;
+    }
+
+    .slider-main__img-view {
+        margin: 20px 98px 20px 16px;
+    }
+
+    .slider-main__img-hp {
+        margin: 10px 173px 20px 16px;
+    }
+
+    .slider-main__img-acer {
+        margin: 21px 131px 20px 16px;
+    }
+
+    .slider-main__img-sony {
+        margin: 21px 99px 20px 16px;
+    }
+
+    .slider-main__button-read-more.button {
+        display: none;
+    }
+
+    #logj {
+        display: flex;
+    }
+
+    @media (min-width: 768px) {
+        .slider-main {
+            height: 100%;
+            margin-top: 100px;
+        }
+        .swiper-container {
+            height: 100%;
+            width: 768px;
+        }
+        .swiper-wrapper.slider-main__brand {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+        .swiper-slide.slider-main__brand-section {
+            height: 72px;
+            width: 224px !important;
+            margin-left: 24px;
+            background-color: $bac;
+            position: relative;
+            display: flex;
+            flex-shrink: 1;
+            margin-bottom: 29px;
+        }
+        .slider-main__button-read-mor.button.but {
+            font-family: "TT Lakes";
+            padding-left: 18px;
+            padding-top: -29px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+            letter-spacing: -0.2px;
+            color: $bla;
+            margin-left: 73px;
+            position: absolute;
+            margin-top: -42px;
+            cursor: pointer;
+            background: #F8F8F8;
+            margin-left: 56px;
+        }
+        #one {
+            display: none;
+        }
+        #logj {
+            display: none;
+        }
+        #logq {
+            display: none;
+        }
+        #logw {
+            display: none;
+            flex-wrap: wrap;
+        }
+        .slider-main__button-read-mor.button.but {
+            display: block;
+        }
+        .repairs__kinds.swiper-wrapper {
+            z-index: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 107px;
+        }
+        .slider-main__button-read-mor.but {
+            font-family: "TT Lakes";
+            padding-left: 18px;
+            padding-top: -29px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+            letter-spacing: -0.2px;
+            color: $bla;
+            margin-left: 73px;
+            position: absolute;
+            margin-top: -71px;
+            cursor: pointer !important;
+        }
+        .swiper-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            display: flex;
+            transition-property: transform;
+            box-sizing: content-box;
+        }
+        .swiper-pagination {
+            visibility: hidden;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .slider-main {
+            width: 1120px;
+            height: 100%;
+        }
+        .swiper-slide.slider-main__brand-section {
+            width: 240px;
+        }
+        .swiper-container {
+            width: 100%;
+        }
+        #one {
+            display: flex;
+        }
+        #logo {
+            flex-wrap: wrap;
+            display: none;
+        }
+        .slider-main__img-apple {
+            margin: 12px 182px 20px 16px;
+        }
+        .slider-main__img-samsung {
+            margin: 20px 110px 20px 16px;
+        }
+        .slider-main__img-bosch {
+            margin: 20px 100px 20px 16px;
+        }
+        .slider-main__img-view {
+            margin: 20px 98px 20px 16px;
+        }
+        .slider-main__img-hp {
+            margin: 10px 173px 20px 16px;
+        }
+        .slider-main__img-acer {
+            margin: 21px 131px 20px 16px;
+        }
+        .slider-main__img-sony {
+            margin: 21px 99px 20px 16px;
+        }
+        #logw {
+            display: flex;
+        }
+    }
+
+    .active__Swiper#logj {
+        display: flex;
+    }
+
+    .active_Swipers#logw {
+        display: flex;
+    }
